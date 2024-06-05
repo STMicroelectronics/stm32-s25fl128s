@@ -1,4 +1,4 @@
-# BSP STM32-S25FL128S Component
+# BSP STM32-S25FL128S xSPI-Interfaced Memory Component
 
 ![latest tag](https://img.shields.io/github/v/tag/STMicroelectronics/stm32-s25fl128s.svg?color=brightgreen)
 
@@ -19,7 +19,7 @@ Two models of publication are proposed for the STM32Cube embedded software:
 
 ## Description
 
-This **stm32-s25fl128s** MCU component repository is one element **common to all** STM32Cube MCU embedded software packages, providing the **STM32-S25FL128S** BSP QSPI/OSPI component part.
+This **stm32-s25fl128s** MCU component repository is one element **common to all** STM32Cube MCU embedded software packages, providing the **S25FL128S** BSP xSPI-interfaced memory component part.
 
 ## Release note
 
@@ -27,10 +27,8 @@ Details about the content of this release are available in the release note [her
 
 ## Compatibility information
 
-Below is the list of the BSP *component* drivers to be used with this BSP *board* driver. It is **crucial** that you use a consistent set of CMSIS - HAL - BSP versions, as mentioned in [this](https://htmlpreview.github.io/?https://github.com/STMicroelectronics/STM32CubeALL/blob/master/Release_Notes.html) release note.
+Please refer to the repository of the BSP **board** driver you are using to know which version of this BSP component driver to use. It is **crucial** that you use a consistent set of versions as indicated.
 
 ## Troubleshooting
 
-If you have any issue with the **software content** of this repository, you can file an issue [here](https://github.com/STMicroelectronics/stm32-s25fl128s/issues/new).
-
-For any other question related to the product, the tools, the environment, you can submit a post to the **ST Community** on the appropriate topic [page](https://community.st.com/s/topiccatalog).
+Please refer to the [CONTRIBUTING.md](CONTRIBUTING.md) guide.
